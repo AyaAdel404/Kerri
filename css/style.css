@@ -1,0 +1,480 @@
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+.nav-main{
+padding:0% 7%;
+}
+.navbar.bg-black{
+    --bs-bg-opacity: 0.3;
+    background-color: rgba(var(--bs-black-rgb),var(--bs-bg-opacity))!important;
+}
+.active{
+    text-decoration-line: underline; 
+    color: rgb(248, 248, 248);
+}
+.active:hover{
+    text-decoration-line: underline; 
+    color: rgb(248, 248, 248); 
+}
+.navbar-nav , .nav-link,.active{
+    color:rgb(248, 248, 248) !important;
+}
+.home{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) ,url(../images/bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.home-conternt h3 {
+    width: 8cm;
+    font-size: 35px;
+    font-weight: 300;
+    color: rgb(248, 248, 248);
+}
+.home-conternt span {
+    font-size: 40px;
+    font-weight: 360;
+    color: rgb(248, 248, 248);
+}
+.home-conternt p {
+    font-size: 38px;
+    font-weight: 360;
+}
+.home-conternt h1 {
+    font-size: 50px;
+    font-weight: 800;
+    
+    color: rgb(248, 248, 248);
+}
+.home span::after{
+    content:" " ;
+    animation:typing 4s infinite linear;
+}
+@keyframes typing {
+    0%{
+        content:" L" ;
+    } 
+    10%{
+        content:" Lar" ;
+    }
+    20%{
+        content:" Larry" ;
+    }
+    30%{
+        content:" Larry Da" ;
+    }
+    40%{
+        content:" Larry Dani" ;
+    }
+    50%{
+        content:" Larry Daniels" ;
+    }
+    60%{
+        content:" Larry Dani" ;
+    }
+    70%{
+        content:" Larry Da" ;
+    }
+    80%{
+        content:" Larry"  ;
+    }
+    90%{
+        content:" Lar" ;
+    }
+    100%{
+        content:" L" ;
+    }
+    
+    
+}
+                        /* ICONS */
+
+
+  .social-media-icons ul {
+    display: flex;
+  }
+  .social-media-icons  ul li {
+    list-style: none;
+  }
+  
+  .social-media-icons ul li a {
+    width: 40px;
+    height: 40px;
+    background-color:  #0000002e;;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    margin: 0 2px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+ 
+  }
+  
+  .social-media-icons ul li a .icon {
+    position: relative;
+    color: #ffffff;
+
+  }
+                          /* ICONS */
+  
+                            /* section 2 */
+#about{
+    background-color: #ffffff;
+}
+
+.image-sec2 {
+    position: relative;
+    display: inline-block;
+}
+
+
+.resume-01 h1{
+    font-size:45px;
+    font-weight:800;
+    margin-bottom: 5px;
+    color: rgb(32 29 29);
+}
+.resume-01 h4{
+    font-size: 20px;
+    font-weight:400;
+    color: #999;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.resume-01 p {
+    font-size: 14px;
+    font-weight: 0.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+    padding: 1% 0% 3% 0%; 
+  }
+  .resume-01 span{
+    font-size: 14px;
+    font-weight: 700;
+  }
+.skills-progress {
+    border-style: solid;
+    border-width: thin;
+    border-color:  #e9e9e9;
+    box-shadow:inset 0 0 17px  #e9e9e9;
+    border-radius: 5px;
+    height: 27px;
+
+    
+  }
+  .skills{
+        padding: 3%  0%  0%  0%;
+  }
+ 
+                  /* animation */
+  @keyframes example-a {
+    from {width: 10%;}
+    to {width: 95%;}}
+
+    @keyframes example-b {
+        from {width: 5%;}
+    to {width: 80%;}}
+
+        @keyframes example-c {
+            from {width: 5%;}
+    to {width: 90%;}}
+
+
+.one{
+    animation-name: example-a;
+  animation-duration: 2s;
+    color: #ffffff;
+    background-color: #1c1c1c;
+    border-radius: 5px;
+    width: 95%;
+    padding-left: 3%;
+    height: 25px;
+
+
+}
+.one h5{
+    font-size: 19px;
+    /* padding: 0.5% 0% 0.5% 3%; */
+    width: 80%;
+ 
+}
+.one p{
+    align-items: right;
+    position: relative;
+    text-align: right;
+    display: inline-block;
+    font-size: 19px;
+    padding: 0% 0% 0% 72%;
+    color: #ffffff;
+        height: 25px;
+
+}
+
+.two{
+    animation-name: example-b;
+  animation-duration: 2s;
+    color: #ffffff;
+    background-color: #1c1c1c;
+    border-radius: 5px;
+    width: 80%;
+    padding-left: 3%;
+    height: 25px;
+
+}
+.two h5{
+    font-size: 19px;
+    padding: 0.5% 0% 0.5% 3%;
+}
+.two p{
+    align-items: right;
+    position: relative;
+    text-align: right;
+    display: inline-block;
+    font-size: 19px;
+    padding: 0% 0% 0% 69%;
+    color: #ffffff;
+}
+
+.three{
+    animation-name: example-c;
+  animation-duration: 2s;
+    color: #ffffff;
+    background-color: #1c1c1c;
+    border-radius: 5px;
+    width: 90%;
+    padding-left: 3%;
+    height: 25px;
+
+}
+.three h5{
+    font-size: 19px;
+    padding: 0.5% 0% 0.5% 3%;
+}
+.three p{
+    align-items: right;
+    position: relative;
+    text-align: right;
+    display: inline-block;
+    font-size: 19px;
+    padding: 0% 0% 0% 69%;
+    color: #ffffff;
+    
+}
+                    /* animation */
+#Services{
+    background-color: #f7f7f7;
+}
+.resume02{
+    padding-top: 3%;
+}
+.btn1{
+color: #ffffff;
+background-color: #000000;
+font-size: 19px;
+}
+.btn1:hover{
+    background: transparent !important;
+    color: #343434 !important;
+}
+
+                    /* section 3 */
+
+.section-head h3{
+    font-weight: 900;
+    font-size: 50px;
+    position: relative;
+    display: inline-block;
+    z-index: 4;
+}
+.ervices .item {
+    padding: 50px 20px;
+    background: #fff;
+    -webkit-box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.services .item .icon {
+    font-size: 30px;
+    margin-bottom: 20px;
+    width:100px;
+    height: 100px;
+    line-height: 82px;
+    background: #f4f4f4;
+    border-radius: 50%;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    padding: 6%
+}
+.services .item h6 {
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 7%;
+    margin-bottom: 9%;
+}
+.services .item p {
+    word-spacing: 2px;
+    font-size: 14px;
+        line-height: 1.6;
+        margin: 0;
+        font-size: 15px;
+        color: #748182;
+}
+.icon-card {
+    width: 30%;
+    height: 50%;
+    align-items: center;
+    padding: 4% 2% 3% 2%;
+}
+.main-cards{
+    align-items: center;
+    margin-right: 0%;
+    padding-bottom: 5%;
+}
+.services .item .icon:hover {
+    
+    background: #000000;
+    color: #f4f4f4;
+}
+.clientcontent p,span,h6{
+    color: #3e3e3e;
+}
+.down{
+    margin-top: 0%;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: -2rem;
+    
+}
+.carousel-dark .carousel-indicators [data-bs-target]{
+    background-color: #343434 !important;
+    width: 1%;
+    height: 9px;
+    border-radius: 74%;
+}
+
+
+
+input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
+    font-size: 0.75em;
+    color: #999;
+    top: -5px;
+    -webkit-transition: all 0.225s ease;
+    transition: all 0.225s ease;
+}
+
+.styled-input {
+    float: left;
+    width: 293px;
+    margin: 1rem 0;
+    position: relative;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 768px){
+    .styled-input {
+        width:100%;
+    }
+}
+
+.styled-input label {
+    color: #999;
+    padding: 1.3rem 30px 1rem 30px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    pointer-events: none;
+}
+
+.styled-input.wide { 
+    width: 650px;
+    max-width: 100%;
+}
+
+input,
+textarea {
+    padding: 30px;
+    border: 0;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #2d2d2d;
+    color: white;
+    border-radius: 4px;
+}
+
+input:focus,
+textarea:focus { outline: 0; }
+
+input:focus ~ span,
+textarea:focus ~ span {
+    width: 100%;
+    -webkit-transition: all 0.075s ease;
+    transition: all 0.075s ease;
+}
+
+textarea {
+    width: 100%;
+    min-height: 15em;
+}
+
+.input-container {
+    width: 650px;
+    max-width: 100%;
+    margin: 20px auto 25px auto;
+}
+
+.submit-btn {
+    float: right;
+    padding: 7px 35px;
+    border-radius: 60px;
+    display: inline-block;
+    background-color: #4b8cfb;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.06),
+              0 2px 10px 0 rgba(0,0,0,0.07);
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.submit-btn:hover {
+    transform: translateY(1px);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.10),
+              0 1px 1px 0 rgba(0,0,0,0.09);
+}
+
+@media (max-width: 768px) {
+    .submit-btn {
+        width:100%;
+        float: none;
+        text-align:center;
+    }
+}
+
+input[type=checkbox] + label {
+  color: #ccc;
+  font-style: italic;
+} 
+
+input[type=checkbox]:checked + label {
+  color: #f00;
+  font-style: normal;
+}
